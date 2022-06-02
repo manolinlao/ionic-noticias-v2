@@ -61,7 +61,8 @@ export class ArticleComponent implements OnInit {
       handler: () => this.onShareArticle(),
     };
 
-    if (this.platform.is('capacitor')) {
+    // if (this.platform.is('capacitor')) {
+    if (true) {
       normalBtns.unshift(shareBtn);
     }
 
